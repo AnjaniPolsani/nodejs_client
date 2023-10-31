@@ -8,7 +8,7 @@ function UserTable() {
 
     // load users only once
     useEffect(() => {
-        fetch('http://localhost:3001/api/users')
+        fetch('http://192.168.56.101:3001/api/users')
             .then(response => response.json())
             .then(data => dispatch(getUsers(data)));
     }, [dispatch]);
