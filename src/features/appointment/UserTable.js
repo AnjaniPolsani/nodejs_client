@@ -60,7 +60,7 @@ function UserTable() {
                                 </td>
                                 <td>
                                     <div className="dropdown open">
-                                        <a href="#!" className="px-2" id="triggerId1" data-toggle="dropdown" aria-haspopup="true"
+                                        <a href="#!" className="px-2" id="triggerId1" data-toggle="dropdown" 
                                             aria-expanded="false">
                                             <i className="fa fa-ellipsis-v"></i>
                                         </a>
