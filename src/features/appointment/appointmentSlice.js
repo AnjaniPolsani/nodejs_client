@@ -1,41 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 
-const usersJson = [
-  {
-    "id": 1,
-    "name": "John Doe",
-    "age": 28,
-    "gender": "Male",
-    "status": "Consult",
-    "time": "06:00 PM",
-    "date": "2 Feb 2021",
-    "phone": "+91 9876543215",
-    "doctor": "Dr. Ananth"
-  },
-  {
-    "id": 2,
-    "name": "Mukul Rao",
-    "age": 28,
-    "gender": "Male",
-    "status": "Revisit",
-    "time": "06:00 PM",
-    "date": "2 Feb 2021",
-    "phone": "+91 9876543215",
-    "doctor": "Dr. Ananth"
-  },
-  {
-    "id": 3,
-    "name": "Neeraj Sharma",
-    "age": 28,
-    "gender": "Male",
-    "status": "Consult",
-    "time": "06:00 PM",
-    "date": "2 Feb 2021",
-    "phone": "+91 9876543215",
-    "doctor": "Dr. Ananth"
-  }
-];
-
 function getEmptyuserForm() {
   return {
     name: '',
